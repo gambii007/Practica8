@@ -19,6 +19,12 @@
     }
 }
 
+.informacion-meta {
+    span {
+        color: $azul;
+    }
+}
+
 .texto-entrada{
     a{
         color: $negro;
@@ -35,8 +41,5 @@
             background-color: $azulFuerte;
             margin-top: 2rem;
         }
-    }
-    span {
-        color: $azul;
     }
 }
