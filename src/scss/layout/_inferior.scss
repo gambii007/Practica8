@@ -19,19 +19,13 @@
     }
 }
 
-.informacion-meta {
-    span {
-        color: $azul;
-    }
-}
-
 .texto-entrada{
     a{
         color: $negro;
     }
     h4 {
         margin: 1.5rem 0 0 0;
-        line-height: 1.4rem;
+        line-height: 2rem;
 
         &::after {
             content: '';
@@ -41,5 +35,8 @@
             background-color: $azulFuerte;
             margin-top: 2rem;
         }
+    }
+    span {
+        color: $azul;
     }
 }
